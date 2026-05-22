@@ -13,6 +13,18 @@ SDK Java Maven pour consommer les APIs Damanesign.
 mvn clean install
 ```
 
+## Installation Maven
+
+Après publication sur Maven Central :
+
+```xml
+<dependency>
+  <groupId>ma.damanesign</groupId>
+  <artifactId>damanesign-java-sdk</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
+
 ## Création d'une transaction
 
 ### Étape 1 : upload du document
